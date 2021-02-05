@@ -1,0 +1,313 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Group 029 - COGS 108 Final Project Proposal"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Names\n",
+    "- Daniel Byers\n",
+    "- Julia Jones\n",
+    "- Ariana Navar\n",
+    "- Isabelle Ryan\n",
+    "- Serenity Steward"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Group Member PIDs\n",
+    "- A15396367 \n",
+    "- A14857019 \n",
+    "- A13623854 \n",
+    "- A15646825 \n",
+    "- A15452935 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Research Question\n",
+    "### Does American, Italian, Mexican, or Indian cuisine use ingredients with the lowest environmental impact by having the smallest amount of food waste, lowest effort to produce or cultivate them, lowest carbon footprint, and longest shelf life?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Background and Prior Work\n",
+    "This question is of interest to our group because it makes us think about environmental sustainability by considering how different dish ingredients impact the environment. With the world already under incredible strain from global warming and other harmful events (e.g. deforestation, fracking, wildfires, etc.), we believe it is important to mitigate this domino effect by adopting more environmentally sustainable practices in our lives (if we have the means to do so). We already knew about some variables about how different ingredients could impact the environment, such as food waste, shelf life, production or cultivation efforts, and carbon footprint. However, we had to find more background information about which cuisines are considered low-impact and why to hone our data-searching process.\n",
+    "\n",
+    "When choosing which cuisines to analyze, we looked up popular cuisines around the world according to Americans$^{1}$ and low-impact cuisines$^{2}$. We had difficulties finding information on the impact of individual dishes but found data for general food products (e.g. beef, fish, etc.). Specifically, we found one website with a wide array of data about different ways food can impact the environment$^{3}$ and another database delineating environmental impact by food type$^{4}$. \n",
+    "\n",
+    "But while we found these resources, we could not find a specific project that answered our question of whether American, Italian, Mexican, or Indian cuisine used ingredients with the lowest environmental impact by having the smallest amount of food waste, lowest effort to produce or cultivate them, lowest carbon footprint, and longest shelf life. We aim to answer this question. \n",
+    "\n",
+    "### Consolidated References\n",
+    "1. https://www.foodnetwork.com/fn-dish/news/2019/3/the-most-popular-food-around-the-world-is--\n",
+    "2. https://www.nytimes.com/2019/04/30/climate/these-five-cuisines-are-easier-on-the-planet.html\n",
+    "3. https://ourworldindata.org/environmental-impacts-of-food\n",
+    "4. https://resourcewatch.org/data/explore/Foo_046a-Food-Footprint-in-Protein?section=Discover&zoom=2.472047381712785&lat=3.8420045405688428&lng=11.690010019481482&pitch=0&bearing=0&basemap=dark&labels=light&page=1&sort=most-viewed&sortDirection=-1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Hypothesis\n",
+    "From our prior knowledge, we expect plant-based foods and preserved foods will have a smaller environmental impact, while meats, fish, water-intensive crops, and products with short shelf lives will have a larger environmental impact. From this, *we expect that American and Mexican cuisine will have a larger environmental impact while Italian and Indian cuisine will have a smaller environmental impact*."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Data\n",
+    "There would be two ideal datasets: one would deal with popular dishes within American, Indian, Italian, and Mexican cuisine, the dishes’ ingredients, and which food group(s) they belong to, and the other would break down each ingredient’s environmental impact. \n",
+    "\n",
+    "For the first dataset about the dishes, we would ideally have four observations for American, Indian, Italian, and Mexican cuisine. The variables we would need for this dataset include the most popular dish in that cuisine, that dish’s ingredients, and the food group(s) to which those ingredients belong.\n",
+    "\n",
+    "For the second dataset about the ingredients’ environmental impact, we would ideally have observations for each ingredient in the most popular dish. The variables we would need for this dataset include the ingredient’s source, its carbon footprint (measured in tons of carbon dioxide emitted per year), its annual production or cultivation costs per one standard unit, its shelf life, and the amount of it wasted annually.\n",
+    "\n",
+    "This data would have to be collected by a third party that is able to monitor how much of each piece of food is wasted and the environmental impact of that particular piece of food. Ideally, these datasets would be stored in CSV, JSON, or Excel Spreadsheet format."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Ethics and Privacy\n",
+    "Our first ideal dataset described above may be problematic for equitable analysis because the most popular dish for each of the four cuisines may reveal socioeconomic disparities in each country. For instance, the “most popular dish” could only be available to a certain demographic depending on how much the dish costs and how easily accessible its ingredients are to everyone in the population. To handle this issue, we could include the most popular dishes by region in these countries (e.g. the most popular dish in urban areas may be different from the most popular dish in rural areas) instead of using the “most popular dish” overall. \n",
+    "\n",
+    "The privacy of our datasets will most likely not be a concern because they outline impersonal data from food/ingredients and do not contain PII. For this reason in addition to our careful consideration of ethics and awareness of the data collectors’ and our own potential biases, we believe we will have permission to use these data to show what ingredients are being used in different ethnic cuisines and to what extent those ingredients impact the environment."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Team Expectations\n",
+    "1. *We will divide up work effectively* because of conflicting schedules and differing strengths.\n",
+    "2. *We each commit to spending at least two hours per week on the project* so we will meet or exceed the project's expected 20-hour workload.\n",
+    "3. *We all agree to work on the extra credit video*.\n",
+    "4. *Everyone does their work in a timely manner*, sticking to deadlines the team agreed upon. \n",
+    "5. *We each commit to following our data intuition, taking the time to find the most reliable sources, and thoroughly analyzing the data*.\n",
+    "6. *We will attempt to split each job type (e.g. writing, coding, data wrangling, etc.) equally* unless a group member has difficulties. Under this circumstance, we agree to address the issue and possibly redistribute workloads."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Project Timeline Proposal\n",
+    "| Meeting Date | Meeting Time | Completed Before Meeting | Discuss at Meeting |\n",
+    "| :- | :- | :- | :- |\n",
+    "| 10/10 | 11 AM | Establish a group message thread for effective communication. | Think about topics we’re interested in doing the project on; rank relative interest among those topics; share our backgrounds (majors, years, colleges, etc.). |\n",
+    "| 10/21 | 9:30 PM | Have a research question that meets the three parameters outlined in the asynchronous lecture in mind. | Decide on a research question and how to proceed with everything else on this project proposal. |\n",
+    "| 10/28 | 5 PM | Look more into the datasets we found at the previous meeting and see if we can find any more relevant datasets. | Determine how we can use the information from each dataset we find to help answer our research question. In other words, discuss the logistics of the datasets. Make it clear what everyone should be doing with the data. |\n",
+    "| 11/04 | 5 PM | Import and wrangle data from our designated dataset. | Look over each other's work and determine how to move forward for data analysis. |\n",
+    "| 11/11 | 5 PM | Start analyzing data. | Quality check each other's code and have a team pulse-check to see if we need to redistribute workloads. Decide who wants to write about what for the project. |\n",
+    "| 11/18 | 5 PM | Complete data analysis and ponder what the results of your analysis mean. | Discuss what everyone's analysis results mean, synthesize those results, and draft an overall conclusion to answer the research question. Check in on how the writing part is going. |\n",
+    "| 11/25 | 5 PM | Have everything in our GitHub repository. | Discuss GitHub logistics. Check if our project's main branch is the most up-to-date in its repository and that it has everything it's supposed to so we can answer our question. |\n",
+    "| 12/02 | 5 PM | Make necessary adds/pushes/etc. to the group repository so all the information is there. Finalize the written piece to go with data analysis. | Review everything as a whole, including data analysis and the written piece. Think about style, syntax, and overall organization of the information in the repository and make appropriate changes. Make sure everything follows the data visualization best practices. |\n",
+    "| 12/09 | 5 PM | Have every part of the project look neat and ready to submit. | Double check the project pieces and how they are organized in our GitHub repository. Determine which group members will make the extra credit video. |\n",
+    "| 12/16 | Before 11:59 PM | N/A | Make sure everything is in apple-pie order and submit the final project and extra credit video on GitHub. |"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Nutritional Units/FU</th>\n",
+       "      <th>LU 5</th>\n",
+       "      <th>LU 10</th>\n",
+       "      <th>LU mean</th>\n",
+       "      <th>LU median</th>\n",
+       "      <th>LU 90</th>\n",
+       "      <th>LU 95</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>Wheat &amp; Rye (Bread)</th>\n",
+       "      <td>2.7</td>\n",
+       "      <td>0.4</td>\n",
+       "      <td>0.4</td>\n",
+       "      <td>1.4</td>\n",
+       "      <td>1.0</td>\n",
+       "      <td>2.9</td>\n",
+       "      <td>3.7</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Maize (Meal)</th>\n",
+       "      <td>4.5</td>\n",
+       "      <td>0.2</td>\n",
+       "      <td>0.3</td>\n",
+       "      <td>0.7</td>\n",
+       "      <td>0.4</td>\n",
+       "      <td>1.3</td>\n",
+       "      <td>2.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Barley (Beer)</th>\n",
+       "      <td>5</td>\n",
+       "      <td>0.04</td>\n",
+       "      <td>0.1</td>\n",
+       "      <td>0.2</td>\n",
+       "      <td>0.2</td>\n",
+       "      <td>0.5</td>\n",
+       "      <td>0.6</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Oatmeal</th>\n",
+       "      <td>2.6</td>\n",
+       "      <td>1.0</td>\n",
+       "      <td>1.1</td>\n",
+       "      <td>2.9</td>\n",
+       "      <td>2.9</td>\n",
+       "      <td>4.9</td>\n",
+       "      <td>5.3</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>Rice</th>\n",
+       "      <td>3.7</td>\n",
+       "      <td>0.3</td>\n",
+       "      <td>0.3</td>\n",
+       "      <td>0.8</td>\n",
+       "      <td>0.6</td>\n",
+       "      <td>1.7</td>\n",
+       "      <td>2.0</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                    Nutritional Units/FU  LU 5 LU 10 LU mean LU median LU 90  \\\n",
+       "Wheat & Rye (Bread)                  2.7   0.4   0.4     1.4       1.0   2.9   \n",
+       "Maize (Meal)                         4.5   0.2   0.3     0.7       0.4   1.3   \n",
+       "Barley (Beer)                          5  0.04   0.1     0.2       0.2   0.5   \n",
+       "Oatmeal                              2.6   1.0   1.1     2.9       2.9   4.9   \n",
+       "Rice                                 3.7   0.3   0.3     0.8       0.6   1.7   \n",
+       "\n",
+       "                    LU 95  \n",
+       "Wheat & Rye (Bread)   3.7  \n",
+       "Maize (Meal)          2.0  \n",
+       "Barley (Beer)         0.6  \n",
+       "Oatmeal               5.3  \n",
+       "Rice                  2.0  "
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import pandas as pd \n",
+    "df_emissions= pd.read_csv(\"nutritional_units.csv\", header=1, index_col=0)\n",
+    "##Data for land use portion \n",
+    "#dropping all columns that are not land use related \n",
+    "df_land_use= df_emissions.drop(df_emissions.columns[7:], axis=1)\n",
+    "\n",
+    "#standardizing the column headers for land use \n",
+    "df_land_use.rename( columns={'Unnamed: 1':'Nutritional Units/FU', \n",
+    "                              'Land Use (m2/nutritional unit)':'LU 5',\n",
+    "                             'Unnamed: 3': 'LU 10', 'Unnamed: 4': 'LU mean',\n",
+    "                              'Unnamed: 5':'LU median','Unnamed: 6': 'LU 90',\n",
+    "                              'Unnamed: 7':'LU 95'}, inplace=True )\n",
+    "#dropping first row becuse it contains column headers and min/max vals\n",
+    "df_land_use.drop({'Product', 'Min Animal Proteins','Max. Av. Veg. Pr. (ex. nuts)',\n",
+    "                  'Max. Average Veg. Protein'}, inplace=True)\n",
+    "#Unsure if the data is already standardized with the nutritional units \n",
+    "df_land_use.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Text(0.5, 0, 'Land Use (m2/NU)')"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    },
+    {
+     "data": {
+      "image/png": "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\n",
+      "text/plain": [
+       "<Figure size 432x288 with 1 Axes>"
+      ]
+     },
+     "metadata": {
+      "needs_background": "light"
+     },
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "#plotting just basic exploratory one \n",
+    "#plotting median land use data\n",
+    "df_land_use['LU median'] = df_land_use['LU median'].astype(float)\n",
+    "lu_hist=df_land_use['LU median'].plot(kind='hist', bins=40)\n",
+    "lu_hist.set_xlabel(\"Land Use (m2/NU)\")"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
